@@ -52,7 +52,7 @@ Example of a Regular Expression - In this example I will use the concept of REGE
                 **Setting the customValidity property to an empty string is important because it will clear any previous error messages                   that may have been displayed if the user had entered an invalid email address before. 
                 **
 
-# Quantifiers
+### Quantifiers
 
 Quantifiers are symbols that indicate how many times the previous character or group should be matched. Here are some common quantifiers:
 
@@ -63,7 +63,7 @@ Quantifiers are symbols that indicate how many times the previous character or g
         {n,}: Matches n or more occurrences of the previous character or group.
         {n,m}: Matches between n and m occurrences of the previous character or group.
 
-Character Classes
+### Character Classes
 
 Character classes allow you to match a set of characters, rather than a single character.
 Useful Characters and symbols used in regular expressions
@@ -81,6 +81,22 @@ Useful Characters and symbols used in regular expressions
         
 By combining these characters and symbols in various ways, you can create a regular expression pattern that matches the specific pattern of text you are looking for.
 
+## Regex Components
+
+LiteralsCharacters in the regex that match themselves. For example, the regex a matches the letter "a" in a string.
+
+Metacharacters: Characters in the regex that have a special meaning, and don't match themselves. Examples of metacharacters include ^, $, ., *, +, ?, |, (, ), {, and }.
+
+## Character Classes
+Character classes: Sets of characters that match any one of a group of characters. For example, the regex [abc] matches any of the characters "a", "b", or "c".
+Quantifiers: Indicate how many times a character or group of characters should be matched. Examples of quantifiers include * (match zero or more), + (match one or more), ? (match zero or one), {n} (match exactly n times), {n,} (match n or more times), and {n,m} (match between n and m times).
+Anchors: Indicate the position in the string where a match should start or end. Examples of anchors include ^ (match at the beginning of the string), $ (match at the end of the string), \b (match at a word boundary), and \B (match not at a word boundary).
+Modifiers: Change the behavior of the regex. Examples of modifiers include i (case-insensitive matching), g (global matching), and m (multiline matching).
+
+### Anchors
+The caret (^): This anchor matches the start of a line or string. For example, the regex ^abc matches the string "abc" only if it appears at the beginning of a line or string. If the string starts with any other character before "abc", the regex will not match.
+
+The dollar sign ($): This anchor matches the end of a line or string. For example, the regex abc$ matches the string "abc" only if it appears at the end of a line or string. If the string ends with any other character after "abc", the regex will not match.****
 
 Resourceful Links
 
@@ -94,27 +110,9 @@ Resourceful Links
 
 
 
-
-
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
-
-## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
-
-
-## Regex Components
-
-### Anchors
-
-### Quantifiers
-
 ### OR Operator
 
-### Character Classes
+
 
 ### Flags
 
