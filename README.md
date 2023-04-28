@@ -3,6 +3,8 @@ This Repo is for referencing my Githib Gist REGEX Tutorial
 
 [REGEX Github Gist](https://gist.github.com/Olloyd321/46a1e94f7745acf063410a367b542100)
 
+[Tutorial](https://user-images.githubusercontent.com/119633009/235035885-392d3a28-9047-4552-896f-053d8ee11aa0.mp4)
+
 ## Table of Contents
 
 - [Anchors](#anchors)
