@@ -70,24 +70,25 @@ Useful Characters and symbols used in regular expressions
         * Letters and digits: These characters match themselves. For example, the letter "a" will match the letter "a" in a string.
         * Quantifiers: These indicate how many times the previous character or group should be matched. For example, the quantifier "+"            means "one or more times", while the quantifier "*" means "zero or more times".
         * Anchors: These match the start or end of a string. For example, the anchor "^" matches the start of a string, while the anchor            "$" matches the end of a string.
-        
-        Here are some more common character classes:
 
-        [abc]: Matches any one of the characters "a", "b", or "c".
-        [a-z]: Matches any lowercase letter from "a" to "z".
-        [A-Z]: Matches any uppercase letter from "A" to "Z".
-        [0-9]: Matches any digit from 0 to 9.
-        [a-zA-Z]: Matches any letter, either lowercase or uppercase.
+
+### Bracket Expressions
+
+[abc]: Matches any one character that is either "a", "b", or "c".
+[a-z]: Matches any one lowercase letter from "a" to "z".
+[A-Z]: Matches any one uppercase letter from "A" to "Z".
+[0-9]: Matches any one digit from 0 to 9.
+[_$]: Matches either an underscore or a dollar sign.
         
 By combining these characters and symbols in various ways, you can create a regular expression pattern that matches the specific pattern of text you are looking for.
 
-## Regex Components
+### Regex Components
 
 LiteralsCharacters in the regex that match themselves. For example, the regex a matches the letter "a" in a string.
 
 Metacharacters: Characters in the regex that have a special meaning, and don't match themselves. Examples of metacharacters include ^, $, ., *, +, ?, |, (, ), {, and }.
 
-## Character Classes
+### Character Classes
 Character classes: Sets of characters that match any one of a group of characters. For example, the regex [abc] matches any of the characters "a", "b", or "c".
 Quantifiers: Indicate how many times a character or group of characters should be matched. Examples of quantifiers include * (match zero or more), + (match one or more), ? (match zero or one), {n} (match exactly n times), {n,} (match n or more times), and {n,m} (match between n and m times).
 Anchors: Indicate the position in the string where a match should start or end. Examples of anchors include ^ (match at the beginning of the string), $ (match at the end of the string), \b (match at a word boundary), and \B (match not at a word boundary).
@@ -104,31 +105,4 @@ Resourceful Links
 [REGEX - How To](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html#:~:text=A%20Regular%20Expression%20(or%20Regex,strings%20and%20rejects%20the%20rest)
 [Intro to REGEX Concept](https://www.youtube.com/watch?v=7DG3kCDx53c)
 
-
-
-
-
-
-
-### OR Operator
-
-
-
-### Flags
-
-### Grouping and Capturing
-
-### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
-## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-
+[@olloyd321](https://github.com/Olloyd321)
